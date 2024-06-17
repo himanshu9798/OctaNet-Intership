@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Todo List 2024 with @Himanshu</title>
+	
+	<link rel="stylesheet" href="main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	
+</head>
+<body>
+	<div class="hima"><h1>Welcome to To-do-list of <span>Himanshu</span></h1></div>
+	
+	<main class="app">
+		<section class="greeting">
+			<h2 class="title">
+				What's up, <input type="text" id="name" placeholder="Name here" />
+			</h2>
+		</section>
+		<section class="create-todo">
+			<h3>WRITE YOUR TASK</h3>
+			<form id="new-todo-form">
+				<h4>What's is your Task?</h4>
+				<input 
+					type="text" 
+					placeholder="Add your task"
+					name="content"
+					id="content" />
+				
+				<h4>Pick a category</h4>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="business" /> 
+						<span class="bubble business"></span>
+						<div>Education</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+				</div>
+
+				<input type="submit" value="Add todo" />
+			</form>
+		</section>
+		<section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+		</section>
+	
+
+	</main>
+	<section class="footer">
+		<p>Follow ME</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/himanshu.vikash.731"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Himanshuku19459" ><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/himanshu-kumar-barnawal-6b6845239/" ><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/himanshubarnwal92/"><i class="fa-brands fa-instagram"></i></a>
+	 </div>
+	 <p>Made with<i class="fa-solid fa-heart"></i>  By @Himanshu kumar Barnawal</p>
+	</section>
+	<script src="main.js"></script>
+	
+</body>
+</html>
